@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 20px 30px;
+  
+}
+section h1{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+}
+section b, h1{
+    margin-bottom: 50px;
+}
+.nav{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+.active, .one{
+    width: 40px;
+    height: 7px;
+    background-color: #0235EA;
+    border-radius: 15px;
+}
+.nav{
+    margin-bottom: 50px;
+}
+.nav-a{
+    width: 40px;
+    height: 7px;
+    background-color: #F6F8FE;
+    border-radius: 15px;
+}
+.upload-doc{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: grey;
+    margin-bottom: 35px;
+}
+.front-pg h3{
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+}
+.drag{
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+    padding: 80px 0;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.drag p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: grey;
+}
+.drag span{
+    color:#0235EA;
+}
+.back-pg h3{
+    font-family: "Poppins", sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+}
+.disclaimer h3{
+    color: #0235EA;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 10px;
+}
+.disclaimer li{
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+}
+button{
+    padding: 20px;
+    background-color: #0235EA;
+    border-radius: 15px;
+    width: 100%;
+}
+button a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: white;   
+}
+
+@media screen and (max-width: 900px) {
+    section{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+
