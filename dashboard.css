@@ -16,6 +16,7 @@ aside{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
     gap: 20px;
     border-right: 1px solid;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -26,6 +27,7 @@ aside{
 .close-aside{
     width: 70px;
     padding-left: 15px;
+    overflow: hidden;
 }
 .top-side{
     width: 100%;
@@ -96,7 +98,7 @@ aside{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 15px;
+    gap: 40px;
     text-transform: capitalize;
 
 }
@@ -112,6 +114,7 @@ aside{
 }
 .close-item{
     display: none;
+    overflow: hidden;
 }
 .bottom-side{
     width: 100%;
